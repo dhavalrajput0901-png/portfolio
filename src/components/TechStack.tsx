@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { useRef, useMemo, useState, useEffect, Suspense } from "react";
+import { useRef, useState, useEffect, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment, useTexture } from "@react-three/drei";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
